@@ -1,1 +1,106 @@
+Algoritmo: Probema 3
+  //Declaração de variavéis 
+    real nota1, nota2, nota3, nota4, media_aritmetica
 
+  //Entrada de dados 
+  escreva("Informe a primeira nota: ")
+  leia(nota1)
+  escreva("Informe a segunda nota: ")
+  leia(nota2)
+  escreva("Informe a terceira nota: ")
+  leia(nota3)
+  escreva("Informe a quarta nota: ")
+  leia(nota4)
+
+  //Processamento
+  media_aritmetica = (nota1 + nota2 + nota3 + nota4)/4
+
+  //Saída de dados
+  escreva("A média aritmética é: ", media_aritmetica)
+
+Algoritmo: Problema 4
+ //Declaração de variavéis 
+    real gasto1, gasto2, gasto3, media_aritmetica
+
+  //Entrada de dados 
+  escreva("Informe o primeira gasto: ")
+  leia(gasto1)
+  escreva("Informe o segunda gasto: ")
+  leia(gasto2)
+  escreva("Informe o terceira gasto: ")
+  leia(gasto3)
+
+  //Processamento
+  media_aritmetica = (gasto1 + gasto2 + gasto3)/3
+
+  //Saída de dados
+  escreva("A média aritmética é: ", media_aritmetica)
+
+Algoritmo: Problema 5
+//Declaração de variavéis 
+    real altura, peso_ideal
+
+  //Declaração de constantes 
+   const real k = 72.7
+   const inteiro B = 58
+
+  //Entrada de dados 
+  escreva("Informe a altura: ")
+  leia(altura)
+  
+  //Processamento
+  peso_ideal = (k * altura) - B
+
+  //Saída de dados
+  escreva("O peso ideal é: ", peso_ideal
+
+Algoritmo: Problema 6
+ //Declaração de variavéis 
+    real x, y, troca
+
+  //Entrada de dados 
+  escreva("Informe o valor de x: ")
+  leia(x)
+  escreva("Informe o valor de y: ")
+  leia(y)
+  
+  //Processamento
+  troca = x
+  x = y
+  y = troca
+
+  //Saída de dados
+  escreva("O valor de x é: ", x, " e o de y é: ", y)
+
+Algoritmo: Problema 7
+//Declaração de variavéis 
+    real comprimento, area, diametro, raio
+
+  //Declaração de constantes 
+  const real  pi= 3.14
+
+  //Entrada de dados 
+  escreva("Informe o valor do raio: ")
+  leia(raio)
+  
+  //Processamento
+  area = 3.14 * raio * raio
+  comprimento = 2 * 3.14 * raio
+  diametro = 2 * raio
+
+  //Saída de dados
+  escreva("O valor do diametro é: ", diametro, " e a área é: ", area, " e o comprimento é: ", comprimento)
+
+Algoritmo: Problema 8
+//Declaração de variavéis 
+ real celsius, fahrenheit 
+
+ //Entrada de dados
+ escreva("Informe a temperatura em celsius: ")
+ leia(celsius)
+ 
+ //Processamento 
+ fahrenheit = celsius * 9/5 + 32.0
+
+ //Saída de dados
+ escreva("A temperatura de celsius em fahrenheit é: ", fahrenheit)
