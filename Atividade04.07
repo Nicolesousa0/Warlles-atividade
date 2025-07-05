@@ -1,0 +1,72 @@
+Questão 1:
+//Declaração de variáveis 
+  real poupanca, arrecadacao, quantidade_pao, quantidade_broa
+
+   //Entrada de dados 
+escreva("Informe a quantidade de pães vendidos: ") 
+leia(quantidade_pao)
+escreva("Informe a quantidade de broas vendidas: ")
+leia(quantidade_broa) 
+
+   //Processamento  
+arrecadacao = quantidade_pao * 0.32 + quantidade_broa * 1.50
+poupanca = (arrecadacao * 10)/100
+
+  //Saída de dados 
+escreva("A arrecadação das vendas foi de: ", arrecadacao, "\n")
+escreva("Você deve guardar: ", poupanca)
+
+Questão 2:
+//Declaração de variavéis
+    caracter nome 
+    inteiro idade, dias_vida
+
+    //Entrada de dados
+    escreva("Informe o seu nome: ")
+    leia(nome)
+    escreva("Informe a sua idade: ")
+    leia(idade)
+
+    //Processamento 
+    dias_vida = idade * 365
+
+    //Saída de dados
+    escreva("Você tem ", dias_vida, " dias de vida")
+
+Questão 3:
+//Declaração de variáveis
+    real kilos, valor, nota, troco, falta
+
+    //Entrada de dados
+    escreva("Informe o peso do seu prato em kg: ")
+    leia(kilos)
+    escreva("Informe o valor da sua nota: ")
+    leia(nota)
+
+    //Processamento
+    valor = kilos * 12.0 
+    troco = nota - valor
+    falta = valor - nota
+    escreva("O valor a pagar será: ", valor, " reais", "\n")
+    se(nota < valor) 
+      escreva("Valor insuficiente, falta: ", falta, "\n")
+    senao
+      escreva("Seu troco será de: ", troco, "\n")
+
+Questão 4:
+//Declaração de variáveis 
+inteiro dia, mes, dias_passados 
+
+//Entrada de dados 
+escreva("Informe o dia: ") 
+leia(dia) 
+escreva("Informe o mês: ") 
+leia(mes)
+
+//Processamento 
+dias_passados = (mes * 30) + dia 
+
+//Saída de dados 
+escreva("Desde o começo do ano se passaram: ", dias_passados, " dias.")
+
+Questão 5:
