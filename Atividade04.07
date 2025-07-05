@@ -10,7 +10,7 @@ leia(quantidade_broa)
 
    //Processamento  
 arrecadacao = quantidade_pao * 0.32 + quantidade_broa * 1.50
-poupanca = (arrecadacao * 10)/100
+poupanca = (arrecadacao * 10.0)/100
 
   //Saída de dados 
 escreva("A arrecadação das vendas foi de: ", arrecadacao, "\n")
@@ -70,3 +70,23 @@ dias_passados = (mes * 30) + dia
 escreva("Desde o começo do ano se passaram: ", dias_passados, " dias.")
 
 Questão 5:
+  //Decaração de variavéis 
+  real quantidade1, quantidade2, quantidade3, litro_total_P, litro_total_M, litro_total_G, litro_total
+  real garrafa_P = 0.350, garrafa_M = 0.600, garrafa_G = 2
+
+  //Entrada de dados
+  escreva("Informe a quantidade de garrafas compradas de 350ml:")
+  leia(quantidade1)
+  escreva("Informe a quantidade de garrafas compradas de 600ml:")
+  leia(quantidade2)
+  escreva("Informe a quantidade de garrafas compradas de 2L:")
+  leia(quantidade3)
+
+  //Processamento
+   litro_total_P = (quantidade1 * garrafa_P)
+   litro_total_M = (quantidade2 * garrafa_M)
+   litro_total_G = (quantidade3 * garrafa_G)
+   litro_total = litro_total_P + litro_total_M + litro_total_G
+
+  //Saida de dados
+  escreva("Informe o total de litros: ", litro_total) 
