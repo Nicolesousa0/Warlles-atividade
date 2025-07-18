@@ -102,3 +102,18 @@ int main() {
 }
 
 f)
+#include <stdio.h>
+
+int main(){
+    float raio, altura, volume;
+    const float pi = 3.14;
+
+    printf("Insira o raio da base: ");
+    scanf("%f", &raio);
+    printf("Insira a altura: ");
+    scanf("%f", &altura);
+
+    volume = pi * raio * altura;
+
+    printf("O volume é: %f \n", volume);
+}
